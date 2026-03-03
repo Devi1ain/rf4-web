@@ -3,8 +3,8 @@ from supabase import create_client, Client
 import requests
 
 # --- НАСТРОЙКИ ---
-SUPABASE_URL = "ТВОЙ_URL_ИЗ_SETTINGS"
-SUPABASE_KEY = "ТВОЙ_KEY_ИЗ_SETTINGS"
+SUPABASE_URL = "https://bjxvmbttkspbakjolmke.supabase.co"
+SUPABASE_KEY = "sb_publishable_XUAIfY1ERJ_IqLozzUx0FQ_o8PHdHs9"
 TG_TOKEN = "ТОКЕН_ТВОЕГО_БОТА"
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
